@@ -1,0 +1,58 @@
+body{
+    font-family: comic, times,helvetica;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align:center;
+    
+}
+
+header{
+    background:url(night1.jpg) ;
+    color:rgb(255,255,255);
+    border-bottom:purple 4px solid;
+    min-height: 150px;
+    
+}
+header li{
+    display: inline;
+    margin: 5px;
+    font-size: 20px;
+    color:red;
+    
+}
+header h1{
+    
+    margin-top: 10px;
+    color: magenta;
+    
+}
+header a{
+    text-decoration:none;
+    color:magenta;
+    text-transform: uppercase;
+}
+nav{
+    float: right;
+
+}
+#showcase{
+    padding-top: 1px;
+    min-height: 400px;
+    background:url(4k.jpg);
+}
+.title{
+    color: magenta;
+    font-size: 50px;
+}
+
+footer{
+    background-color:black;
+    color: purple;
+    margin-top: 10px;
+    border-top: line 1px solid;
+}
+header a:hover{
+    
+    color: purple;
+    font-weight: bold;
+}
